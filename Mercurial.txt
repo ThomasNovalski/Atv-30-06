@@ -1,0 +1,67 @@
+Mercurial 
+Os objetivos principais no desenvolvimento do Mercurial incluem alta performance e escalabilidade, descentralização, desenvolvimento colaborativo distribuído, controle de arquivos textuais e binários de forma robusta, e operações avançadas de ramos (branches) e mesclagem (merges).
+
+O Mercurial é chamado usando-se o alias hg, em referência ao elemento químico mercúrio. Assim, todos os comandos do Mercurial devem ser iniciados por hg.
+
+Para se saber qual a versão do Mercurial instalado, digite no prompt de comando:
+
+Mercurial vs. Git
+
+Vantagens
+Multiplataforma (Linux, BSD, Mac, Windows) [1]
+Fácil migração do git
+Interface nativa para interação e visualização dos commits
+Integração com outras ferramentas via plugins(Git, NetBeans, Emacs, etc)
+Diversas forges disponíveis
+Abreviação de comandos intuitiva e automática
+Suporte a plugins
+Log privativo
+
+Desvantagens
+No geral, é mais lento que o Git [3] [4]
+Não é recomendável para certos perfis de projetos [4]
+Comunidade menos expressiva, já que o número de repositórios que utilizam Mercurial é menor em relação aos outros controles de versão 
+
+
+Bazaar
+
+Introdução
+Um sistema de controle de versões VCS (do inglês version control system) é utilizado para rastrear alterações durante o desenvolvimento de um projeto ou a elaboração de um documento de texto. O VCS possibilita analisar o histórico do desenvolvimento, e resgatar versões mais antigas e estáveis. Em contexto acadêmico é comum realizar projetos independentes de muitas pessoas porque os desenvolvedores ainda estão iniciando a aprendizagem e usam a possibilidade de criar para dominar uma linguagem ou desenvolver algo de seu interesse e não uma obrigação de se resolver grandes problemas. Já no contexto do mercado de trabalho, os projetos tem que resolver problemas da empresa que estão inseridos em escalas bem maiores, e como organizar a construção de um software com mais de 200 pessoas trabalhando ao mesmo tempo? Uma solução é trabalhar em equipe, controlar o histórico, marcar e resgatar versões estáveis e elaborar ramificação de projeto é através de um sistema de controle de versões. Existem muitas ferramentas de sistema de controle de versões, tais como Github, Gitlab, Bazaar, Mercurial.
+
+Sobre a ferramenta
+Bazaar é uma ferramenta de controle de versões seguindo o processo de evolução de código, foi escrita em Python, e está licenciado segundo a licença de software livre GPL(General Public License). Ao utilizar o Bazaar você pode hospedar o seu código para tornar possivel visualizá-lo de maneira online como o Launchpad.
+
+
+Bazaar vs. Git
+
+Vantagens
+Suporte para Windows com interface agradável de maneira a facilitar a execução de comandos
+Suporte direto para mais fluxos de trabalho
+Arquitetura pra plugins
+Similaridade com vocabulário de controladores de versões antigos
+Branches são diretórios
+Versiona diretórios vazios
+
+Desvantagens
+Velocidade
+Eficiência
+Segurança
+
+
+
+Sistema de Versões Concorrentes (CVS)
+
+Senhores, esse carinha existe desde os anos 80 e tem sido muito popular entre os desenvolvedores comerciais e de código aberto.
+
+Originalmente o CVS lidava com conflitos entre dois programadores, permitindo apenas que a última versão do código fosse trabalhada e atualizada.
+
+Foi um sistema em que o usuário deve publicar as alterações rapidamente para garantir que outros usuários não os tenham vencido.
+
+Agora, o CVS pode manipular projetos de ramificação para que o software desenvolvido possa divergir em diferentes produtos com recursos exclusivos e será fundido posteriormente.
+
+Prós do CVS
+Está em uso há muitos anos e é considerado uma tecnologia madura (famosa panela velha que faz comida boa);
+Contras do CVS
+Mover ou renomear arquivos não inclui uma atualização de versão;
+Riscos de segurança de links simbólicos para arquivos;
+Sem suporte à operação atômica (lembra da história da atomicidade né? Espero que sim), levando à corrupção da fonte;
